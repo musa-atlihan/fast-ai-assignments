@@ -1,4 +1,4 @@
-# Fast.ai Asiggnment Solution
+# Fast.ai Assignment Solution
 
 Jeremy Howard and Rachhel Thomas teaches **practical deep learning** at [fast.ai](http://course.fast.ai/). The course aims a practical learning process rather than covering theoretical concepts from ground-up. Therefore includes lots of practical tips and i think this is highly useful for anybody who wants to dive into details (even if ones with the knowledge of linear algebra, statistics, machine learning, some deep learning, etc).
 
