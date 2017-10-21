@@ -15,7 +15,6 @@ from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2
 from keras.layers.pooling import GlobalAveragePooling2D
 from keras.optimizers import SGD, RMSprop, Adam
 from keras.preprocessing import image
-from keras.models import load_model as load_saved
 
 # In case we are going to use the TensorFlow backend we need to explicitly set the Theano image ordering
 from keras import backend as K
@@ -211,8 +210,8 @@ class Vgg16():
             Fits the model on data yielded batch-by-batch by a Python generator.
             See Keras documentation: https://keras.io/models/model/
         """
-        self.model.fit_generator(batches, steps_per_epoch=batches.samples, epochs=nb_epoch,
-                validation_data=val_batches, validation_steps=val_batches.samples)
+        self.model.fit_generator(batches, steps_per_epoch=batches.samples//batches.batch_size, epochs=nb_epoch,
+                validation_data=val_batches, validation_steps=val_batches.samples//batches.batch_size)
 
 
     def test(self, path, batch_size=8):
@@ -230,9 +229,3 @@ class Vgg16():
         """
         test_batches = self.get_batches(path, shuffle=False, batch_size=batch_size, class_mode=None)
         return test_batches, self.model.predict_generator(test_batches, test_batches.samples//batch_size)
-
-    def save_model(self, file_path='saved_model.h5'):
-        self.model.save(file_path)
-
-    def load_model(self, file_path):
-        self.model = load_saved(file_path)
