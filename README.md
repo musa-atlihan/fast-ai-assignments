@@ -20,3 +20,11 @@ Papers suggested in the lession plus additional ones.
 
 * [M. D. Zeiler, R. Fergus, "Visualizing and Understanding Convolutional Networks", arXiv, 2013.](https://arxiv.org/abs/1311.2901)
 * [Jason Yosinski, Jeff Clune, Yoshua Bengio, Hod Lipson, "How transferable are features in deep neural networks?", arXiv, 2014.](https://arxiv.org/abs/1411.1792)
+
+## Lesson 03 - Overfitting and Underfitting
+
+This lesson covers the details of overfitting and underfitting, dropout is not used to avoid the underfitting and, after that, data augmentation techniques are applied to avoid overfitting. Batch normalization is covered.
+
+### Suggested papers for lesson 03
+
+* [S. Ioffe, C. Szegedy, "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift", arXiv, 2015.](https://arxiv.org/abs/1502.03167)
