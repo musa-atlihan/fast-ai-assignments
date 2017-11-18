@@ -16,7 +16,7 @@ def submit2redux(test_batches, preds, file_name='subm_full.csv'):
     # get isdog plus clip for 0. and 1.
     isdog = np.clip(preds[:,1], 0.02, 0.98)
     # ids
-    ids = [int(f[10:f.find('.')]) for f in file_names]
+    ids = [int(f[5:f.find('.')]) for f in file_names]
     # stack
     subm = np.stack([ids,isdog], axis=1)
     # order
