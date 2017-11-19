@@ -25,7 +25,7 @@ Papers suggested in the lession plus additional ones.
 
 This lesson covers the details of overfitting and underfitting, dropout is not used to avoid the underfitting and, after that, data augmentation techniques are applied to avoid overfitting. Batch normalization is covered.
 
-I have implemented the bottleneck feature saving process [here](./assignment-lesson-03.ipynb), However it is only a demonstration with the sample set. Bottleneck features for the train set is about 2GB in size, even with 8gb GPUs of amazon i wasing able to fit the feature arrays in memory to save. Now i am using 1080 ti but i skipped the feature saving step and fine tuned the dense layers by just *freezing* the conv layers which is implemented [here](./assignment-lesson-03-v02.ipynb).
+I have implemented the bottleneck feature saving process [here](./assignment-lesson-03.ipynb), However it is only a demonstration with the sample set. Bottleneck features for the train set is about 2GB in size, even with 8gb GPUs of amazon i wasing able to fit the feature arrays in memory to save. Now i am using 1080 ti but i skipped the feature saving step and fine tuned the dense layers by just *freezing* the conv layers which is implemented [here](./assignment-lesson-03-v02.ipynb). And batch normalization is [here](./assignment-lesson-03-v03-batch-norm.ipynb).
 
 ### Suggested papers for lesson 03
 
