@@ -38,4 +38,4 @@ I have implemented the bottleneck feature saving process [here](./assignment-les
 ### Links and papers for lesson 04
 
 * [Ladder networks](http://rinuboney.github.io/2016/01/19/ladder-network.html).
-* [G. Hinton, O. Vinyals, J. Dean, "Distilling the Knowledge in a Neural Network", arXiv, 2015](https://arxiv.org/abs/1503.02531)
+* [G. Hinton, O. Vinyals, J. Dean, "Distilling the Knowledge in a Neural Network", arXiv, 2015.](https://arxiv.org/abs/1503.02531)
