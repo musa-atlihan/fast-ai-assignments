@@ -30,3 +30,12 @@ I have implemented the bottleneck feature saving process [here](./assignment-les
 ### Suggested papers for lesson 03
 
 * [S. Ioffe, C. Szegedy, "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift", arXiv, 2015.](https://arxiv.org/abs/1502.03167)
+
+## Lesson 04 - Embeddings
+
+[Link to implementation of collaborative filtering](https://github.com/msatlihan/movielens-collaborative-filtering/blob/master/movielens-collaborative-filtering.ipynb)
+
+### Links and papers for lesson 04
+
+* [Ladder networks](http://rinuboney.github.io/2016/01/19/ladder-network.html).
+* [G. Hinton, O. Vinyals, J. Dean, "Distilling the Knowledge in a Neural Network", arXiv, 2015](https://arxiv.org/abs/1503.02531)
